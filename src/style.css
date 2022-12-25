@@ -11,7 +11,15 @@ body {
 .nav {
   height: 200px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   background-color: black;
+}
+
+.btn-container {
+  display: flex;
+  gap: 16px;
 }
 
 #content {
@@ -28,6 +36,14 @@ body {
 img {
   max-width: 50%;
   max-height: 50%;
+}
+
+button {
+  font-size: 1.5em;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px 10px 0 0;
 }
 
 p {

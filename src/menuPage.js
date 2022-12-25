@@ -1,10 +1,10 @@
 import myImage from './restaurant.jpg';
 
-export default function pageLoad(nav) {
+export default function menuPage(nav) {
 
-  nav.homeBtn.style.backgroundColor = "#888";
-  nav.menuBtn.style.backgroundColor = "#eee";
+  nav.menuBtn.style.backgroundColor = "#888";
   nav.contactBtn.style.backgroundColor = "#eee";
+  nav.homeBtn.style.backgroundColor = "#eee";
   
   const content = document.querySelector("#content");
   content.innerHTML = "";
@@ -12,7 +12,7 @@ export default function pageLoad(nav) {
   const image = document.createElement("img");
   const paragraph = document.createElement("p");
 
-  header.textContent = `Home Page`;
+  header.textContent = `Menu Page`;
   image.src = myImage;
   paragraph.textContent = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
   labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
